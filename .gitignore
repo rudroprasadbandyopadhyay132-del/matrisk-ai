@@ -1,0 +1,20 @@
+@'
+# Ignore all raw dataset CSV files
+*.csv
+*.xlsx
+*.zip
+
+# If you create a data folder, ignore it
+data/raw/
+
+# Python environment and cache files
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# IDE and system configurations
+.DS_Store
+.vscode/
+'@ | Out-File -FilePath .gitignore -Encoding utf8 -Force
